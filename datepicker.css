@@ -1,0 +1,63 @@
+
+#datepicker1{
+    width: 150px;
+    height: 20px;
+    border: solid black 1px;
+}
+#box1{
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    border: solid black 1px;   
+    
+}
+.kk{
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-align: center;
+    width: 31px;
+}
+/* document.getElementById("down").onclick = function() {
+    var deleter = document.getElementById("yeardd");
+    deleter.parentNode.removeChild(deleter);
+    var deleter = document.getElementById("up");
+    deleter.parentNode.removeChild(deleter);
+    var deleter = document.getElementById("down");
+    deleter.parentNode.removeChild(deleter);
+    for(var i = 0; i < 12; i++) {
+        var deleter = document.getElementById("yeard"+ i);
+        deleter.parentNode.removeChild(deleter);
+    }    */
+.month{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-align: center;
+    width: 55px;
+    height: 30px;
+    border: solid black 0.1px;
+}
+.year{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-align: center;
+    width: 55px;
+    height: 30px;
+    border: solid black 0.1px;
+}
+#up{
+    display: inline;
+    position: relative;
+    top: 17px;
+    left: 235px;
+}
+#down{
+    top: 17px;
+    display: inline;
+    position: relative;
+}
